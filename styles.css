@@ -230,22 +230,22 @@ margin-bottom: 30px;
     border: 1px solid #555;
     padding: 40px 0 50px 0px;
     margin-bottom: 40px;
-    margin-left: 290px;
-    
+    margin: 30px auto;
 }
 
 
 .Templates .temp-image .behance{
     border: 1px solid #555;
     width: 50%;
-    margin-left: 80px;
-    margin-bottom: 10px;
+    max-width: 500px;
+    margin: 40px auto;
 }
 
 .Templates .temp-image .spa-7{
     border: 1px solid #555;
     width: 50%;
-    height: 320px;
+    max-width: 600px;
+    height: 350px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
@@ -353,18 +353,19 @@ height: 2px;
     top: 20px;
     left: 200px;
     height: 900px;
-    width: 900px;
+    max-width: 900px;
+    min-width: 900px;
+    filter: blur(4px);
 }
    
 .footage{
     position: absolute;
     z-index: 2;
     bottom: 90px;
-    top: 2200px;
+    top: 2100px;
     height: 900px;
     width: 200px;
     margin-left: 260px;
-
 }
 
 .Portfolio .foot-comment{
@@ -383,7 +384,8 @@ height: 2px;
     position: relative;
     left: 790px;
     bottom: 90px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
 }
 .Portfolio .foot-port p{
     position: relative;
@@ -418,17 +420,17 @@ height: 2px;
 .Blog{
     display: flex;
     justify-content: space-between;
-    height: 550px;
+    height: 450px;
 }
 
 .Blog .Blog-text{
     margin-top: 30px;
-    margin-right: 380px;
+    margin-right: 250px;
 
 }
 .Blog .Blog-text h1{
     font-size: 52px;
-    margin-bottom: 190px; 
+    margin-bottom: 100px; 
 }
 
 .Blog .Blog-text p{
@@ -456,14 +458,14 @@ height: 2px;
 }
 
 .Blog img{
-    width: 460px;
-
+    width: 540px;
+    
 }
 
 
 .SEO{
     display: flex;
-    height: 350px;
+    height: 400px;
     background-color: rgb(114, 105, 98);
 }
 
@@ -484,7 +486,7 @@ height: 2px;
 }
 .SEO img{
     position: relative;
-    left: 370px;
+    left: 170px;
 }
 
 
@@ -573,6 +575,8 @@ height: 2px;
 
 .Apps{
     text-align: center;
+    width: 100%;
+    border: 2px solid tan;
 }
 
 .Apps h1{
@@ -614,25 +618,24 @@ height: 2px;
 
 
 .Mobile{
-    border: 1px solid #111;
+    border: 1px solid red;
     display: flex;
-    justify-content: space-between;
     margin-top: 90px;
     padding-top: 0px;
-    height: 700px;
+    height: 600px;
 }
 
 .Mobile .mob-mess{
     padding-top: 10px;
     padding-right: 310px;
     padding-left: 57px;
-    height: 700px;
+    height: 470px;
     margin-right: 0px;
     background-color: rgb(71, 99, 104);
 }
 
 .Mobile .mob-mess h1{
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   margin-bottom: 20px;
 }
@@ -664,19 +667,19 @@ height: 2px;
 
 .Mobile .mob-mess p{
     margin-bottom: 23px;
-    font-size: 20px;
+    font-size: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Mobile .pub-mess{
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
 .Mobile .pub-mess a{
-    font-size: 20px;
+    font-size: 5px;
     text-decoration: none;
     color: rgb(255, 255, 255, 0.5);
-    line-height: 30px;
+    line-height: 20px;
     font-weight: 600;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -687,8 +690,9 @@ height: 2px;
 
 .Mobile img{
     padding: 0px 0px 130px 0px;
-    height: 740px;
-    width: 600px;
+    height: 600px;
+    width: 700px;
+
 }
 
 .Video{
@@ -696,8 +700,7 @@ height: 2px;
     height: 500px;
     background-color: rgb(24, 23, 23);
     display: flex;
-    margin-left: px;
-    width: 1350px;
+    width: 100%;
 }
 
 .V-mess{
@@ -705,7 +708,7 @@ height: 2px;
    margin-top: 70px;
    width: 350px;
    height: 400px;
-   margin-right: 60px;
+   margin-right: 0px;
    margin-left: 10px;
 }
 
@@ -735,13 +738,33 @@ height: 2px;
     color: white;
 }
 
+.Video .back img{
+   width: 690px;
+   height: 490px;
+   max-width: 360px;
+}
+
+  .Video .middle img{
+    width: 200px;
+    height: 340px;
+    max-width: 200px;
+    min-width: 200px;
+    border-radius: 20px;
+  }
+
+  .Video .front img{
+    width: 160px;
+    height: 280px;
+    max-width: 160px;
+    min-width: 150px;
+    border-radius: 20px;
+  }
 
 .Video .back{
-    width: 90px;
     height: 7px;
     position: relative;
     right: 0px;
-    left: 150px;
+    left: 330px;
     z-index: 1;
     border: 1px solid #111;
 }
@@ -750,7 +773,7 @@ height: 2px;
     width: 1px;
     height: 1px;
     position: relative;
-    left: 420px;
+    left: 460px;
     z-index: 2;
     top: 50px;
     border: 1px solid #111;
@@ -759,12 +782,11 @@ height: 2px;
 }
 
 .Video .front{
-    width: 39px;
     height: 19px;
     position: relative;
     z-index: 3;
-    left: 525px;
-    top: 120px;
+    left: 640px;
+    top: 70px;
     border: 1px solid #111;
     border-radius: 80px;
 }
@@ -777,9 +799,10 @@ height: 2px;
 .How-to{
     display: flex;
     justify-content: space-around;
-    height: 450px;
-    width: 1300px;
-    margin-left: 50px;
+    height: 400px;
+    background-color: aqua;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .How-to .head{
@@ -835,6 +858,7 @@ footer{
 }
 
 .footer-head{
+    width: 100%;
     display: flex;
     border-bottom: 0.5px solid rgb(255, 255, 255, 0.2);
     justify-content: space-between;
@@ -866,8 +890,9 @@ footer{
     margin-top: 22px;
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     height: 700px;
-
+    width: 100%;
 }
 
 .footer img{
@@ -922,7 +947,7 @@ footer{
 }
 
 
-@media (max-width: 1100px){
+@media (max-width: 1200px){
     body{
         background-color: silver;
     }
@@ -1081,7 +1106,7 @@ footer{
     display: block;
     text-align: center;
     padding: 60px 0 60px 0;
-
+    width: 100%;
 }
 
 .Templates h2{
@@ -1275,7 +1300,7 @@ height: 2px;
     filter: blur(3px);
     left: 0px;
     max-width: 700px;
-    height: 500px;
+    height: 700px;
     width: 80%;
     margin: 0 auto;
 }
@@ -1284,12 +1309,12 @@ height: 2px;
     position: absolute;
     z-index: 2;
     bottom: 90px;
-    top: 2300px;
+    top: 2100px;
     height: 500px;
     width: 70%;
     max-width: 600px;
     margin: 0 auto;
-    margin-left: 130px;
+    margin-left: 230px;
 }
 
 .footage video{
@@ -1311,7 +1336,7 @@ height: 2px;
 }
 .Portfolio .foot-port img{
     position: relative;
-    left: 390px;
+    left: 490px;
     bottom: 0px;
     height: 200px;
 }
@@ -1549,18 +1574,18 @@ height: 2px;
 
 
 .Mobile{
-    border: 1px solid #111;
+    border: 5px solid #111;
     display: flex;
-    justify-content: space-between;
     margin-top: 90px;
     padding-top: 0px;
     height: 400px;
+    width: 100%;
 }
 
 .Mobile .mob-mess{
     padding-top: 10px;
-    padding-right: 310px;
-    padding-left: 57px;
+    padding-right: 0px;
+    padding-left: 27px;
     height: 400px;
     margin-right: 0px;
     background-color: rgb(71, 99, 104);
@@ -1625,8 +1650,8 @@ height: 2px;
 
 .Mobile img{
     padding: 0px 0px 130px 0px;
-    height: 540px;
-    width: 400px;
+    height: 527px;
+    width: 535px;
 }
 
 .Video{
@@ -1641,9 +1666,10 @@ height: 2px;
 .V-mess{
    text-align: center;
    margin-top: 70px;
-   width: 350px;
+   width: 300px;
    height: 400px;
-   margin-right: 60px;
+   border: 1px solid salmon;
+   margin-right: 0px;
    margin-left: 10px;
 }
 
@@ -1674,35 +1700,37 @@ height: 2px;
 }
 
 .Video .back img{
-    width: 100%;    
-    height: 100%;
+    width: 500px;
+    max-width: 400px;   
+    height: 498px;
 }
 
 .Video .middle img{
-    width: 100%;   
+    width: 200px;
+    height: 380px;   
 }
 
 .Video .front img{
-    width: 100%; 
-      
+    width: 150px; 
+    height: 300px;  
 }
 
 
 .Video .back{
-    width: 400px;
-    height: 307px;
+    width: 0px;
+    height: 97px;
     position: relative;
-    right: 0px;
-    left: 0px;
+    right: 290px;
+    left: 190px;
     z-index: 1;
     border: 1px solid #111;
 }
 
 .Video .middle{
-    width: 190px;
-    height: 1px;
+    width: 50px;
+    height: 10px;
     position: relative;
-    left: 190px;
+    left: 320px;
     z-index: 2;
     top: 50px;
     border: 1px solid #111;
@@ -1715,8 +1743,8 @@ height: 2px;
     height: 19px;
     position: relative;
     z-index: 3;
-    left: 275px;
-    top: 120px;
+    left: 450px;
+    top: 90px;
     border: 1px solid #111;
     border-radius: 80px;
 }
@@ -1729,9 +1757,9 @@ height: 2px;
 .How-to{
     display: flex;
     justify-content: space-around;
-    height: 450px;
-    width: 1300px;
-    margin-left: 50px;
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .How-to .head{
@@ -1741,7 +1769,7 @@ height: 2px;
 }
 
 .How-to .head h1{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -1754,7 +1782,7 @@ height: 2px;
 }
 
 .How-to ol{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 40px;
   height: 400px;
@@ -1818,7 +1846,7 @@ footer{
     margin-top: 22px;
     background-color: black;
     display: flex;
-    height: 700px;
+    height: 900px;
 
 }
 
@@ -1891,7 +1919,7 @@ footer{
 
 
 
-@media (max-width: 870px){
+@media (max-width: 900px){
     body{
         width: 100%;
         font-family: sans-serif;
@@ -2243,7 +2271,7 @@ footer{
         left: 0px;
         margin: 0 auto;
         height: 450px;
-        width: 75%;
+        width: 50%;
     }
       /* .blur{  
         background: linear-gradient(135deg rgba(225, 225, 225, 0.01), rgba(255, 255, 225, 0.04));
@@ -2263,15 +2291,16 @@ footer{
         position: absolute;
         z-index: 2;
         bottom: 90px;
-        top: 299px;
+        top: 300px;
         height: 20%;
-        width: 83%;
+        width: 100%;
         margin-left: 60px;
     }
 
     .footage video{
         width: 100%;
         height: 100%;
+        border: 1px solid red;
     }
     
     .Portfolio .foot-comment{
@@ -2624,7 +2653,7 @@ footer{
     .Mobile img{
         padding: 0px 0px 130px 0px;
         height: 440px;
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
     }
     
@@ -2675,21 +2704,30 @@ footer{
     
     .Video .back img{
         width: 170%;
-        margin: 0 auto;
+        max-width: 590px;
+        margin-left: 90px;
+        
         height: 100%;
     }
 
     .Video .middle img{
-        width: 170%;
-        
+        width: 84%;
+        max-width: 900px;
+        height: 370px;
+        min-width: 250px;
+        border-radius: 20px;
     }
     
     .Video .front img{
-        width: 110%;
+        width: 74%;
+        height: 350px;
+        max-width: 400px;
+        min-width: 200px;
+        border-radius: 20px;
     }
 
     .Video .back{
-        width: 60%;
+        width: 490px;
         height: 487px;
         position: absolute;
         right: 0px;
@@ -2701,24 +2739,26 @@ footer{
     }
     
     .Video .middle{
-        width: 15%;
-        height: 15px;
+        width: 40%;
+        height: 50px;
+        max-width: 100px;
         position: absolute;
-        left: 150px;
+        left: 290px;
         z-index: 2;
-        top: 520px;
+        top: 560px;
         border: 1px solid #111;
         border-radius: 30px;
     
     }
     
     .Video .front{
-        width: 17%;
+        width: 38%;
         height: 19px;
         position: absolute;
         z-index: 3;
-        left: 175px;
-        top: 520px;
+        left: 315px;
+        top: 570px;
+        max-width: 500px;
         border: 1px solid #111;
         border-radius: 80px;
     }
@@ -2731,7 +2771,7 @@ footer{
         height: 400px;
         width: 100%;
         margin-left: 10px;
-        margin-top: 350px;
+        margin-top: 550px;
         border: 1px solid;
         flex-direction: column;
     }
@@ -3631,7 +3671,7 @@ footer{
         .Video .back img{
             width: 1000%;
             margin: 0 auto;
-            max-width: 500px;
+            max-width: 580px;
             height: 100%;
         }
     
@@ -3645,7 +3685,7 @@ footer{
         }
     
         .Video .back{
-            width: 50%;
+            width: 60%;
             height: 397px;
             position: absolute;
             right: 0px;
@@ -3674,7 +3714,7 @@ footer{
             position: absolute;
             z-index: 3;
             left: 175px;
-            top: 550px;
+            top: 520px;
             border: 1px solid #111;
             border-radius: 80px;
         }
